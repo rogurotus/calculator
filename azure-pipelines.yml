@@ -7,8 +7,10 @@ trigger:
 - master
 
 pool:
-  vmImage: windwos-latest
+  name: Default
+  demands:
+   - agent.name -equals WIN-3TRVDEA38NE
 
 steps:
-- script: docker run redis
+- script: echo test
   displayName: 'Run a one-line script'
