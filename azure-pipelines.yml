@@ -12,5 +12,4 @@ pool:
    - agent.name -equals WIN-3TRVDEA38NE
 
 steps:
-- script: ls
-  displayName: 'Run a one-line script'
+- pwsh: ./up.ps1
