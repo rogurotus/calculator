@@ -12,4 +12,4 @@ pool:
    - agent.name -equals WIN-3TRVDEA38NE
 
 steps:
-- pwsh: ./up.ps1
+  - powershell: ./up.ps1
